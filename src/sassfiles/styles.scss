@@ -1,0 +1,66 @@
+@use "./reset";
+@use "./font" as *;
+@use "./components/Button/website/actionBtn/schoolBtn";
+@use "./components/allCards/website/teamCards";
+@use "./components/Navbar/guestNavbar";
+@use "./components/forms/authenticationForm";
+@use "./pages/websitePages/otherActivities/weekendActivities";
+
+//pages
+@use "./pages/websitePages/home";
+@use "./pages/websitePages/about";
+@use "./pages/websitePages/gallery";
+@use "./pages/websitePages/blog/blogPage";
+@use "./pages/websitePages/upcomingEvents";
+
+//component
+@use "./components/footer" as *;
+
+// @use "./components//Button/website/actionBtn/facilitatorBtn" as *;
+// @use "./components/allCards/dashboard/profileCards" as *;
+// @use "./components/allCards/website/paymentPackage" as *;
+// @use "./components/allCards/website/blogCard" as *;
+// @use "./components//allCards/website/galleryCard" as *;
+@use "./components/Button/dashboard/actionBtn";
+
+//authentication pages
+@use "./pages/websitePages/authenticationPages/school/champsNeeds" as *;
+
+//auth forms
+@use "./pages/websitePages/authenticationPages/school/champsNeeds" as *;
+@use "./pages/websitePages/authenticationPages/school/schoolLocation" as *;
+
+//instructor auth forms
+@use "./pages/websitePages/authenticationPages/instructor/instructorInfo" as *;
+@use "./pages/websitePages/authenticationPages/instructor/aboutInstructor" as *;
+@use "./pages/websitePages/authenticationPages/instructor/addActivity" as *;
+@use "./pages/websitePages/authenticationPages/instructor/yourActivity" as *;
+@use "./pages/websitePages/authenticationPages/instructor/profileUpload" as *;
+@use "./pages/websitePages/authenticationPages/instructor/idUpload" as *;
+@use "./pages/websitePages/authenticationPages/instructor/videoUpload" as *;
+@use "./pages/websitePages/authenticationPages/instructor/congratulatoryMessage"
+  as *;
+
+//instructor dashoard
+@use "./pages/dashboardPages/instructor/allAssignments/viewMaterials" as *;
+@use "./pages/dashboardPages/instructor/instructorProfile" as *;
+
+//parent
+@use "./pages/websitePages/allActivities/allActivities" as *;
+@use "./pages/websitePages/allActivities/technology" as *;
+
+//payment package
+@use "./pages/websitePages/paymentPackages/paymentPackages" as *;
+
+@use "./components/Navbar/dashboardNavbar" as *;
+@use "./components/Navbar/champNavbar" as *;
+@use "./components/Navbar/champDashboardpg" as *;
+@use "./pages/dashboardPages/champs/champAssignmentBoard" as *;
+@use "./pages/dashboardPages/champs/virtualClasspage" as *;
+@use "./pages/dashboardPages/champs/champCalenderPage" as *;
+@use "./components/Navbar/dashboardNavbar" as *;
+@use "./pages//errorPage" as *;
+// admin dashboard
+@use "./pages/dashboardPages/admin/allInstructorPage" as *;
+
+// @use "./components/Button/website/scrollToTop" as *;

@@ -1,0 +1,66 @@
+@use "../Button/website/actionBtn/homeandAboutBtn";
+
+.homeHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 65vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.homeHeroBg {
+  background: url(/src/assets/images/hero/Group\ 879.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 65vh;
+  width: 100%;
+}
+
+.homeHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.homeHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+.homeHeroBg,
+.GetAnInstructorBtn {
+  position: relative;
+}
+
+.dd {
+  display: flex;
+  align-items: center !important;
+}
+
+//responsiveness
+@media only screen and (max-width: 523px) {
+  .homeHeroBg {
+    height: 27.5rem;
+  }
+}
+@media (min-width: 524px) and (max-width: 754px) {
+  .homeHeroBg {
+    height: 37.5rem;
+  }
+}
+@media (min-width: 755px) and (max-width: 767px) {
+  .homeHeroBg {
+    height: 40.5rem;
+  }
+}
+@media (min-width: 767px) and (max-width: 780px) {
+  .homeHeroBg {
+    height: 28.5rem;
+  }
+}
