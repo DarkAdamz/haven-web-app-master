@@ -14,7 +14,7 @@ import teamMemberThreeInfo from "../../../data/allCards/team.json";
 import teamMemberFourInfo from "../../../data/allCards/team.json";
 import teamMemberFiveInfo from "../../../data/allCards/team.json";
 import teamMemberSixInfo from "../../../data/allCards/team.json";
-import teamMemberSevenInfo from "../../../data/allCards/team.json";
+import teamMemberSevenInfo from "../../../data/allCards/team.json"
 import { MemberOneViewBioBtn } from "../../Buttons/website/teamModalBtn";
 import { TeamOneViewBioBtn } from "../../Buttons/website/actionBtn/homeandAboutBtn";
 
